@@ -5,7 +5,7 @@ import threading
 import urllib.parse
 
 # Lokasi direktori penyimpanan file yang dapat diunduh
-file_storage_directory = "/home/ayung/Video/"
+file_storage_directory = ""
 
 class FileUploadHandler(BaseHTTPRequestHandler):
     def do_GET(self):
